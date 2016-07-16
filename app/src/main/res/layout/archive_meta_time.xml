@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:paddingLeft="15dp"
+              android:paddingRight="15dp"
+              android:paddingTop="10dp"
+              android:background="@drawable/background"
+              android:gravity="center_vertical"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        >
+
+        <LinearLayout
+            android:layout_weight="4"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                style="@style/Item.TitleSecond.Gray"
+                android:text="@string/item_start_time"
+
+                />
+            <TextView
+                style="@style/Item.Content.Small"
+                android:id="@+id/meta_start_time"
+                android:text="@string/not_available"
+                />
+        </LinearLayout>
+
+        <ImageView style="@style/Cell.Vertical.Time" />
+
+        <LinearLayout
+            android:layout_weight="4"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                style="@style/Item.TitleSecond.Gray"
+                android:text="@string/item_end_time"
+                />
+            <TextView
+                style="@style/Item.Content.Small"
+                android:id="@+id/meta_end_time"
+                android:text="@string/not_available"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="4"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                style="@style/Item.TitleSecond.Gray"
+                android:text="@string/item_total_time"
+                />
+            <TextView
+                style="@style/Item.Content.Small"
+                android:id="@+id/meta_total_time"
+                android:text="@string/not_available"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="10dp"
+        style="@style/Cell.Horizontal" />
+</LinearLayout>

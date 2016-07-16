@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<PreferenceCategory android:title="User Interface">-->
+    <!--<ListPreference android:key="orientation"-->
+    <!--android:title="Orientation"-->
+    <!--android:summary="The Screen Orientation"-->
+    <!--android:entries="@array/orientation"-->
+    <!--android:entryValues="@array/orientation"-->
+    <!--android:defaultValue="portrait"-->
+    <!--/>-->
+    <!--</PreferenceCategory>-->
+
+    <PreferenceCategory android:title="GPS Listener">
+        <ListPreference android:key="gpsMinTime"
+                        android:title="GPS Time Interval"
+                        android:summary="The minimum time interval for GPS notifications, in milliseconds."
+                        android:entries="@array/gpsMinTimeValues"
+                        android:entryValues="@array/gpsMinTimeValues"
+                        android:defaultValue="2000"
+            />
+
+        <ListPreference android:key="gpsMinDistance"
+                        android:title="GPS Distance Interval"
+                        android:summary="The minimum distance interval for notifications, in meters."
+                        android:entries="@array/gpsMinDistanceValues"
+                        android:entryValues="@array/gpsMinDistanceValues"
+                        android:defaultValue="3"
+            />
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="Record Options">
+        <CheckBoxPreference android:key="autoStart"
+                            android:title="Auto Start Record"
+                            android:defaultValue="false"
+                            android:summaryOn="Start record on application launched"
+                            android:summaryOff="Manual start record by user"
+            />
+
+        <!--<CheckBoxPreference android:key="autoClean"-->
+        <!--android:title="Auto Clean"-->
+        <!--android:defaultValue="true"-->
+        <!--android:summary="Note! Uncheck this maybe have many empty record database"-->
+        <!--android:enabled="false"-->
+        <!--/>-->
+
+        <ListPreference android:key="recordBy"
+                        android:title="Save Record By"
+                        android:summary="How to save points into each database"
+                        android:entries="@array/recordByItem"
+                        android:entryValues="@array/recordByValues"
+                        android:defaultValue="RECORD_BY_TIMES"
+            />
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="Environment">
+
+        <CheckBoxPreference android:key="switchAirplaneMode"
+                            android:title="AirPlane Mode"
+                            android:summary="Switch AirPlane Mode while recording"
+                            android:defaultValue="false"
+            />
+
+        <CheckBoxPreference android:key="lightLed"
+                            android:title="Lightning LED"
+                            android:summary="Turn on Lightning LED(if have) while recording"
+                            android:defaultValue="true"
+            />
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

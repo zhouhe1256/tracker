@@ -1,0 +1,33 @@
+<resources>
+    <color name="gray">#999999</color>
+    <color name="title">#222222</color>
+    <color name="title_second">#666666</color>
+    <color name="highlight">#d0634f</color>
+    <color name="highlight_border">#b45646</color>
+    <color name="mils">#6c928c</color>
+    <color name="divider">#ffffff</color>
+    <color name="snowhite">#ffffff</color>
+    <color name="green">#00ff00</color>
+    <color name="red">#ff0000</color>
+    <color name="blue">#0000ff</color>
+    <color name="devider">#f4f4f4</color>
+
+    <!--action bar-->
+    <color name="actionbar_separator">#EE5257</color>
+    <color name="actionbar_title">#FFFFFF</color>
+    <color name="actionbar_background_start">#EE5257</color>
+    <color name="actionbar_background_end">#EE5257</color>
+    <color name="actionbar_background_item_pressed_start">#EE5257</color>
+    <color name="actionbar_background_item_pressed_end">#EE5257</color>
+    <color name="title_notifier">#ffffff</color>
+    <color name="title_notifier_second">#eaeaea</color>
+    <color name="background_dark">#000000</color>
+
+    <color name="text_color_w">#FFFFFF</color>
+    <color name="text_color_g">#999999</color>
+    <color name="text_color_b">#333333</color>
+    <color name="text_color_gr">#666666</color>
+    <color name="them_color">#ed505b</color>
+    <color name="bg_color">#f4f4f4</color>
+    <color name="view_line">#e5e5e5</color>
+</resources>

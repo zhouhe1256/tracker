@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="15dp"
+    android:layout_weight="1"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/a8" />
+
+        <TextView
+            android:id="@+id/item_title_pace"
+            style="@style/Item.Title"
+            android:paddingLeft="10dp"
+            android:layout_gravity="center_vertical"
+            android:text="@string/item_ten_pace" />
+    </LinearLayout>
+    <!--<LinearLayout-->
+    <!--android:orientation="horizontal"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:gravity="bottom"-->
+    <!--android:layout_height="wrap_content">-->
+
+    <!--<TextView android:text="@string/no_pace"-->
+    <!--style="@style/Item.Content"-->
+    <!--android:id="@+id/item_ten_pace"-->
+    <!--/>-->
+
+    <!--&lt;!&ndash;<TextView android:text="@string/kmh"&ndash;&gt;-->
+    <!--&lt;!&ndash;style="@style/Item.TitleSecond"&ndash;&gt;-->
+    <!--&lt;!&ndash;/>&ndash;&gt;-->
+    <!--</LinearLayout>-->
+</LinearLayout>
+

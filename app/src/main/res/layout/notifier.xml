@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="5dp"
+    android:layout_width="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/background_dark"
+    android:gravity="center_horizontal"
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_menu_home"
+        android:id="@+id/img"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        />
+
+    <LinearLayout
+        android:layout_toRightOf="@id/img"
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/recording"
+            android:textStyle="bold"
+            android:textColor="@color/title_notifier"
+            />
+
+        <TextView
+            android:textColor="@color/title_notifier_second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/status"
+            android:text="@string/not_available"
+            />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/status_cost_time"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/title_notifier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/none_cost_time"
+        />
+</RelativeLayout>

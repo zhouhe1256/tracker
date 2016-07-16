@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LightBackground"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/action_bar" />
+
+    <LinearLayout
+        android:id="@+id/charts"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/snowhite"
+        android:orientation="vertical"
+        android:padding="10dp"></LinearLayout>
+
+
+</LinearLayout>

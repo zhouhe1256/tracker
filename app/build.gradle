@@ -1,0 +1,63 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "23.0.0"
+
+    defaultConfig {
+        applicationId "com.gracecode.tracker"
+        minSdkVersion 17
+        targetSdkVersion 23
+        versionCode 7
+        versionName "1.7.0"
+    }
+    signingConfigs {
+        release {
+            storeFile file('keystore/tracker')
+            storePassword '1234567890'
+            keyAlias 'tracker'
+            keyPassword '1234567890'
+        }
+        debug{
+            storeFile file('keystore/tracker')
+            storePassword '1234567890'
+            keyAlias 'tracker'
+            keyPassword '1234567890'
+        }
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    packagingOptions{
+        exclude('META-INF/NOTICE.txt')
+        exclude('META-INF/LICENSE.txt')
+    }
+    //这个是解决lint报错的代码
+    lintOptions {
+        abortOnError false
+        // 防止在发布的时候出现因MissingTranslation导致Build Failed!
+        disable 'MissingTranslation'
+    }
+}
+
+dependencies {
+    compile 'com.android.support:appcompat-v7:+'
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile 'com.jjoe64:graphview:4.0.1'
+    compile 'com.github.PhilJay:MPAndroidChart:v2.2.0'
+    compile files('libs/AMap_2DMap_V2.8.0_20151231.jar')
+    compile files('libs/AMap_3DMap_V3.2.0.1_20160122.jar')
+    compile files('libs/AMap_Location_v2.3.0_20160112.jar')
+    compile files('libs/AMap_Search_V2.8.0_20160105.jar')
+    compile files('libs/oauth.jar')
+    compile files('libs/Msc.jar')
+    compile 'cn.bmob.android:bmob-sdk:3.4.5'
+    compile 'com.squareup.okhttp:okhttp:2.4.0'
+    compile 'com.squareup.okio:okio:1.4.0'
+}
+
+
+

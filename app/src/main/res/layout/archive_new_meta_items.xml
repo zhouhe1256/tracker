@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/snowhite"
+    android:orientation="vertical"
+    android:paddingTop="5dp">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp">
+
+        <include layout="@layout/item_new_distance" />
+
+        <ImageView style="@style/Cell.Vertical" />
+
+        <include layout="@layout/item_new_speed" />
+    </LinearLayout>
+
+    <ImageView style="@style/Cell.Horizontal" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp">
+
+        <include layout="@layout/item_new_average_speed"
+            android:id="@+id/pace_layout"/>
+
+        <ImageView style="@style/Cell.Vertical" />
+
+        <include layout="@layout/item_new_records" />
+        <!--<ImageView style="@style/Cell.Vertical" />-->
+        <!--<include layout="@layout/item_calorie" />-->
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="10dp"
+        android:background="@color/devider" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/snowhite"
+        android:orientation="vertical"
+        android:paddingLeft="10dp">
+
+        <include layout="@layout/item_total_step" />
+
+        <ImageView style="@style/Cell.Horizontal" />
+
+        <include layout="@layout/item_total_step1" />
+
+        <ImageView style="@style/Cell.Horizontal" />
+
+        <include layout="@layout/item_total_step2" />
+
+        <ImageView style="@style/Cell.Horizontal" />
+
+        <include layout="@layout/item_new_calorie" />
+
+        <ImageView style="@style/Cell.Horizontal" />
+
+        <include layout="@layout/item_new_climbing" />
+
+        <ImageView style="@style/Cell.Horizontal" />
+
+        <include
+            android:id="@+id/ten_pace"
+            layout="@layout/item_new_pace" />
+    </LinearLayout>
+
+
+</LinearLayout>

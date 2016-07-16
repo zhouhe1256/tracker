@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_id">56d3e845</string>
+    <string name="app_name">Tracker</string>
+    <string name="service_name">Track Server</string>
+    <string name="pls_wait">Loading, Please Wait</string>
+    <string name="time_format">MM/dd HH:mm</string>
+    <string name="sort_time_format">HH:mm</string>
+    <string name="time_month_format">yyyy/MM</string>
+    <string name="month_format">%1$d / %2$d</string>
+    <string name="no_description">Empty Description</string>
+    <string name="export_kml">Export</string>
+    <string name="delete">Delete</string>
+    <string name="none_cost_time">00:00:00</string>
+    <string name="status_format">%1$02.1fkm</string>
+    <string name="has_deleted">%s Has Been Deleted</string>
+    <string name="delete_error">Delete Error</string>
+    <string name="info">Info</string>
+    <string name="notice">Notice</string>
+    <string name="sure_to_del">Confirm Delete This?</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="save_kml_finished">KML file is ready</string>
+    <string name="saving">Saving. Please Wait...</string>
+    <string name="still_running">Running In Background.</string>
+    <string name="initialing">Initialing</string>
+    <string name="recording">Recording</string>
+    <string name="not_available">--</string>
+    <string name="no_records">00.00</string>
+    <string name="no_pace">0</string>
+    <string name="no_dot_records">0</string>
+    <!--<string name="records_formatter">%02.1f</string>-->
+    <string name="records_formatter">%1.2f</string>
+
+    <string name="running">Tracker Is Running</string>
+    <string name="menu_help">Help</string>
+    <string name="menu_configure">Preference</string>
+    <string name="menu_records">Records</string>
+    <string name="menu_pause">Pause</string>
+    <string name="menu_start">Start</string>
+    <string name="not_record_anything">Does\'t Record Anything</string>
+    <string name="result_report">Recorded %s Points.</string>
+    <string name="use_recovery_database_file">Start With Recovery</string>
+    <string name="update_title">Title</string>
+    <string name="menu_modify">Modify</string>
+    <string name="merge">Merge</string>
+    <string name="gps_not_presented">GPS Not Presented</string>
+    <string name="use_resume_archive_file">Start With Recovery</string>
+    <string name="storage_not_presented">Storage Card Not Presented</string>
+    <string name="menu_calendar">Select Month</string>
+    <string name="archive_not_exists">Selected Record Not Exists</string>
+    <string name="updated">Updated</string>
+    <string name="toggle_satellite">Toggle Satellite Mode</string>
+    <string name="nearby">%s</string>
+    <string name="long_press_to_stop">Long Press To Stop</string>
+    <string name="item_distance">DISTANCE</string>
+    <string name="item_calorie">CALORIE</string>
+    <string name="item_climbing">CLIMBING</string>
+    <string name="item_average_speed">AVG. SPEED</string>
+    <string name="kmh">km/h</string>
+    <string name="item_pace">PACE</string>
+    <string name="item_ten_pace">TENPACE</string>
+    <string name="item_speed">SPEED</string>
+    <string name="item_max_speed">MAX SPEED</string>
+    <string name="item_records">RECORDS</string>
+    <string name="item_end_time">END TIME</string>
+    <string name="item_total_time">TOTAL TIME</string>
+    <string name="item_start_time">START TIME</string>
+    <string name="menu_feedback">Feedback</string>
+    <string name="submit">Submit</string>
+    <string name="ok">OKay</string>
+    <string name="shit_happens">Oh~ Shit Happens!</string>
+    <string name="has_benn_saved">Has been saved</string>
+    <string name="external_storage_not_present">External storage does\'t present</string>
+    <string name="btn_start">START</string>
+    <string name="btn_end">END</string>
+    <string name="btn_disabled">DISABLED</string>
+    <string name="title_detail">Detail</string>
+    <string name="title_modify">Modify</string>
+    <string name="title_records">Records</string>
+    <string name="km">km</string>
+    <string name="kcal">kcal</string>
+    <string name="m">m</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_share">Share</string>
+    <string name="share_report_formatter" formatted="false">Just finished a trip%s which total distance about %s km(from
+        %s to %s , during %s), and max speed is %s km/h and average speed is %s km/h
+    </string>
+    <string name="actionbar_activity_not_found">Failed to open intent...</string>
+
+    <string name="title_activity_edite_data">EditeDataActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_pace">PaceActivity</string>
+
+    <string name="title_activity_gao_de_map">GaoDeMap</string>
+
+
+    <string name="code_token">通过code获取accesstoken</string>
+    <string name="refresg_token">通过refreshtoken获取accesstoken</string>
+    <string name="test_mac">测试签名</string>
+    <string name="profile">获取个人名片</string>
+    <string name="relation">获取好友列表</string>
+    <string name="getcode">获取code</string>
+    <string name="gettoken">获取token</string>
+    <string name="title_activity_helper_activity_for_get_token_ut">HelperActivityForGetTokenUT</string>
+    <string name="saveResult">保存token等结果到SD卡</string>
+    <string name="openid">获取用户openId</string>
+    <string name="phone">获取用户电话号码</string>
+    <string name="demo_old_api">测试DeprecatedApi(不鼓励使用)</string>
+    <string name="title_activity_friends">FriendsActivity</string>
+    <string name="title_activity_friends_map">FriendsMapActivity</string>
+</resources>
